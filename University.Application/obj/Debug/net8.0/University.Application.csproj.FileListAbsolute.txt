@@ -1,0 +1,17 @@
+E:\Trabalho-Final-Dot-Net\University.Application\bin\Debug\net8.0\University.Application.deps.json
+E:\Trabalho-Final-Dot-Net\University.Application\bin\Debug\net8.0\University.Application.dll
+E:\Trabalho-Final-Dot-Net\University.Application\bin\Debug\net8.0\University.Application.pdb
+E:\Trabalho-Final-Dot-Net\University.Application\bin\Debug\net8.0\University.Domain.dll
+E:\Trabalho-Final-Dot-Net\University.Application\bin\Debug\net8.0\University.Infrastructure.dll
+E:\Trabalho-Final-Dot-Net\University.Application\bin\Debug\net8.0\University.Domain.pdb
+E:\Trabalho-Final-Dot-Net\University.Application\bin\Debug\net8.0\University.Infrastructure.pdb
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\University.Application.csproj.AssemblyReference.cache
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\University.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\University.Application.AssemblyInfoInputs.cache
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\University.Application.AssemblyInfo.cs
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\University.Application.csproj.CoreCompileInputs.cache
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\Universi.05740EDD.Up2Date
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\University.Application.dll
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\refint\University.Application.dll
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\University.Application.pdb
+E:\Trabalho-Final-Dot-Net\University.Application\obj\Debug\net8.0\ref\University.Application.dll

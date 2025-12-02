@@ -1,0 +1,11 @@
+E:\Trabalho-Final-Dot-Net\University.Domain\bin\Debug\net8.0\University.Domain.deps.json
+E:\Trabalho-Final-Dot-Net\University.Domain\bin\Debug\net8.0\University.Domain.dll
+E:\Trabalho-Final-Dot-Net\University.Domain\bin\Debug\net8.0\University.Domain.pdb
+E:\Trabalho-Final-Dot-Net\University.Domain\obj\Debug\net8.0\University.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Trabalho-Final-Dot-Net\University.Domain\obj\Debug\net8.0\University.Domain.AssemblyInfoInputs.cache
+E:\Trabalho-Final-Dot-Net\University.Domain\obj\Debug\net8.0\University.Domain.AssemblyInfo.cs
+E:\Trabalho-Final-Dot-Net\University.Domain\obj\Debug\net8.0\University.Domain.csproj.CoreCompileInputs.cache
+E:\Trabalho-Final-Dot-Net\University.Domain\obj\Debug\net8.0\University.Domain.dll
+E:\Trabalho-Final-Dot-Net\University.Domain\obj\Debug\net8.0\refint\University.Domain.dll
+E:\Trabalho-Final-Dot-Net\University.Domain\obj\Debug\net8.0\University.Domain.pdb
+E:\Trabalho-Final-Dot-Net\University.Domain\obj\Debug\net8.0\ref\University.Domain.dll

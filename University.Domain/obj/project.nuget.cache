@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eijaXBM5/PE=",
+  "success": true,
+  "projectFilePath": "E:\\Trabalho-Final-Dot-Net\\University.Domain\\University.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mhenr\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\mhenr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\mhenr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
