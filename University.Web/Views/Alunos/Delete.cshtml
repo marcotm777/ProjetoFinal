@@ -1,0 +1,17 @@
+@model University.Application.ViewModels.AlunoViewModel
+
+<h2>Excluir Aluno</h2>
+
+<p>Tem certeza que deseja excluir este aluno?</p>
+
+<div>
+    <p><strong>Nome:</strong> @Model.Nome</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Data Nascimento:</strong> @Model.DataNascimento.ToShortDateString()</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Confirmar</button>
+    <a asp-action="Index">Cancelar</a>
+</form>

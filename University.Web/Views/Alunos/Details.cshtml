@@ -1,0 +1,14 @@
+@model University.Application.ViewModels.AlunoViewModel
+
+<h2>Detalhes do Aluno</h2>
+
+<div>
+    <p><strong>Nome:</strong> @Model.Nome</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Data Nascimento:</strong> @Model.DataNascimento.ToShortDateString()</p>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar</a>
+</p>

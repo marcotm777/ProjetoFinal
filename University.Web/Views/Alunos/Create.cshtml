@@ -1,0 +1,31 @@
+@model University.Application.ViewModels.AlunoViewModel
+
+<h2>Novo Aluno</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label asp-for="Nome"></label>
+        <input asp-for="Nome" />
+        <span asp-validation-for="Nome"></span>
+    </div>
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label asp-for="DataNascimento"></label>
+        <input asp-for="DataNascimento" type="date" />
+        <span asp-validation-for="DataNascimento"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="CursoId" class="form-label">Curso</label>
+        <select asp-for="CursoId" asp-items="ViewBag.Cursos" class="form-select">
+            <option value="">-- Selecione --</option>
+        </select>
+        <span asp-validation-for="CursoId" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Salvar</button>
+    <a asp-action="Index">Voltar</a>
+</form>

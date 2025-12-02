@@ -1,0 +1,39 @@
+@model IEnumerable<University.Application.ViewModels.CursoViewModel>
+
+@{
+    ViewData["Title"] = "Cursos";
+}
+
+<h1>Cursos</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Novo Curso</a>
+</p>
+
+@if (!Model.Any())
+{
+    <p>Nenhum curso cadastrado.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nome</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

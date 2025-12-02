@@ -1,0 +1,52 @@
+@model IEnumerable<University.Application.ViewModels.AlunoViewModel>
+
+@{
+    ViewData["Title"] = "Alunos";
+}
+
+<h1>Alunos</h1>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <input id="searchTerm" class="form-control" placeholder="Buscar por nome, e-mail ou curso..." />
+    </div>
+    <div class="col-md-2">
+        <button id="btnSearch" class="btn btn-primary">Buscar</button>
+    </div>
+    <div class="col-md-6 text-end">
+        <a class="btn btn-success" asp-action="Create">Novo Aluno</a>
+    </div>
+</div>
+
+<div id="alunosTableContainer">
+    @await Html.PartialAsync("_AlunosTablePartial", Model)
+</div>
+
+@section Scripts {
+    <script>
+        function buscarAlunos() {
+            var term = document.getElementById('searchTerm').value;
+
+            fetch('@Url.Action("Search", "Alunos")?term=' + encodeURIComponent(term), {
+                method: 'GET',
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('alunosTableContainer').innerHTML = html;
+            });
+        }
+
+        document.getElementById('btnSearch').addEventListener('click', function () {
+            buscarAlunos();
+        });
+
+        document.getElementById('searchTerm').addEventListener('keyup', function (e) {
+            if (e.key === 'Enter') {
+                buscarAlunos();
+            }
+        });
+    </script>
+}
